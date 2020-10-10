@@ -1,7 +1,9 @@
 # Discord-Converter
 
 This project is a demo as it uses usertokens, which is against tos.
-Details on this,
+
+Details on how it works:
+
 upon every message being sent, it'll delete the message from your account(perms required)
 It will read the data of each message, name , discrim(tag),message content and your avatar.
 Then it'll send that through a webhook, giving the illusion that your a discord bot!
