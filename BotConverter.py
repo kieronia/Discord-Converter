@@ -5,7 +5,7 @@ import discord
 import requests
 
 from discord.ext import commands
-TOKEN = "mfa.d.faw"
+TOKEN = "put token here"
 os.system("title lets have some fun!")
 bot = commands.Bot(description="Discord self-bot" , command_prefix="!")
 
@@ -21,7 +21,7 @@ async def on_connect():
 	
 @bot.event
 async def on_ready():
-	print(f"Ready to mess with {bot.user.name} :)" )
+	print(f"Ready on {bot.user.name} :)" )
     
 
 
@@ -49,8 +49,7 @@ async def on_message(message):
             except:
                 print("[-] Webhook Problem - Check Validity/Ratelimits")
 
-        else:
-            pass
+
     
 
 bot.run(TOKEN, bot = False)
